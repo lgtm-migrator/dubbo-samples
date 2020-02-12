@@ -18,7 +18,7 @@ import java.util.List;
  * @author bing_huang
  * @since V1.0
  */
-public class IUserServiceImpl implements IUserService {
+public class UserServiceImpl implements IUserService {
     @Override
     public List<UserAddress> getUserAddressList(String userId) {
         UserAddress userAddress = new UserAddress(1, "湖南长沙", "1", "张三", "15074446478", "false");

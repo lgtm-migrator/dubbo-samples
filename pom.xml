@@ -38,6 +38,8 @@
         <module>provider-dubbo-sample</module>
         <module>consumer-dubbo-sample</module>
         <module>interface-dubbo-sample</module>
+        <module>provider-boot-dubbo-sample</module>
+        <module>consumer-boot-dubbo-sample</module>
     </modules>
 
     <properties>
@@ -97,6 +99,11 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-registry-nacos</artifactId>
+                <version>${dubbo.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
